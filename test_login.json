@@ -1,0 +1,33 @@
+{
+  "test_login": [
+    {
+      "test_login_0": {
+      "url": "http://127.0.0.0/login",
+      "method": "post",
+      "data": {
+        "username": "niemiao",
+        "password": "123456"
+      },
+      "note": "正确的账号密码"
+    },
+    "test_login_1": {
+      "url": "http://127.0.0.0/login",
+      "method": "post",
+      "data": {
+        "username": "niemiao",
+        "password": "000000"
+      },
+      "note": "错误的账号密码"
+    },
+    "test_login_2": {
+      "url": "http://127.0.0.0/login",
+      "method": "post",
+      "data": {
+        "username": "niemiao",
+        "password": ""
+      },
+      "note": "账号密码为空"
+    }
+    }
+  ]
+}
